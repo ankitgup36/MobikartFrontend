@@ -3,7 +3,8 @@ this is an e-commerce website. I have used mern stack to build this app. this ha
 I have used material-ui, bootstrap, and CSS to design this website.
 
 Tech Stack - Node.js, Express.js, React.js, Mongo DB, VS Studio Code, Postman, Material-ui, Bootstrap
-Link - https://astounding-bunny-be383e.netlify.app/home/productdetails
+
+Website Link - https://astounding-bunny-be383e.netlify.app/home/productdetails
 
 here user needs to log in, in the case if the user doesn't have an account, he needs to sign up first 
 
