@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+this is an e-commerce website. I have used mern stack to build this app. this has many features like sorting items according to the price and filtering out products according to the category.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I have used material-ui, bootstrap, and CSS to design this website.
 
-## Available Scripts
+Tech Stack - Node.js, Express.js, React.js, Mongo DB, VS Studio Code, Postman, Material-ui, Bootstrap
 
-In the project directory, you can run:
+here user needs to log in, in the case if the user doesn't have an account, he needs to sign up first 
 
-### `npm start`
+Sign in Page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot (35)](https://user-images.githubusercontent.com/120046236/219943551-ce674dc4-f54d-4365-8833-54fa071dcbaf.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Sign up Page
 
-### `npm test`
+![Screenshot (36)](https://user-images.githubusercontent.com/120046236/219943557-20fa7a75-8224-44ad-8e9d-36c1adec157c.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+On the home page, we have all products list which can be filtered and sorted out.
+to sort the products by price - High to Low or Low to High, choose the option from the sort button
+Note -- to be able to add to the cart, you need to sign in first
 
-### `npm run build`
+![Screenshot (37)](https://user-images.githubusercontent.com/120046236/219943569-d568174f-2da7-4e14-bd88-e266e2517ce9.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+to Filter out Products according to category click on a category on the left.
+![Screenshot (40)](https://user-images.githubusercontent.com/120046236/219943619-d1a75677-c217-4777-8f0a-4594e92932c9.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+this is the product details page, on this page you can get all the information about the product.
+![Screenshot (41)](https://user-images.githubusercontent.com/120046236/219943643-aa6cc964-38ee-4009-8894-9fdea4614d8e.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This is a cart page, where you can find all the products that have been added to the cart. from here you can either delete the product or you can proceed to the checkout
 
-## Learn More
+![Screenshot (38)](https://user-images.githubusercontent.com/120046236/219943676-9918e3f8-f0ab-4b1a-a580-923719491f48.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This is confirmation page,  where you get the short summary of the transaction.
 
-### Code Splitting
+![Screenshot (39)](https://user-images.githubusercontent.com/120046236/219943693-247d3822-e4b3-47ad-8dfc-17e79e9dbe12.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
