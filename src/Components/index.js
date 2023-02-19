@@ -1,0 +1,13 @@
+export { default as Home } from "./Home";
+export { default as Login } from "./Login";
+export { default as Register } from "./Register";
+export { default as Navbar } from "./Navbar";
+export { default as Cart } from "./Cart";
+export { default as Body } from "./Body";
+export { default as ProductCard } from "./ProductCard";
+export { default as CategoryCard } from "./CategoryCard";
+export { default as Sorting } from "./Sorting";
+export { default as ProductDetails } from "./ProductDetails";
+export { default as Icon } from "./Icon";
+export { default as CartProduct } from "./CartProduct";
+export { default as Confirmation } from "./Confirmation";
